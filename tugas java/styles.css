@@ -13,6 +13,34 @@ body {
   font-size: 14px;
   line-height: 22px;
   color: #555555;
+  padding: 0;
+  margin: 0;
+}
+.box {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  padding: 5px;
+  background: #f1f1f1;
+}
+.box a{
+  width: 40px;
+  height: 40px;
+  float: left;
+  text-indent: -9999px;
+  margin: 5px;
+}
+#yellow{
+  background: #f3c623;
+}
+#blue{
+  background: #12cad6;
+}
+#gray{
+  background: #84a9ac;
+}
+#orange{
+  background: #fa7d09;
 }
 
 .bold {

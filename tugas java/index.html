@@ -3,11 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>project Web Design #2</title>
+    <title>Patryck Koyoh, SM</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.js">
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script type="text/javascript">
+    function changecolor(id) {
+      document.body.style.background = document.getElementById(id).innerHTML;
+    }
+    </script>
 </head>
 <body>
+  <div class="box">
+    <a onclick="changecolor('yellow')" id="yellow">#f3c623</a>
+    <a onclick="changecolor('blue')" id="blue">#12cad6</a>
+    <a onclick="changecolor('gray')" id="gray">#84a9ac</a>
+    <a onclick="changecolor('orange')" id="orange">#fa7d09</a>
+  </div>
     <div class="resume">
         <div class="resume_left">
           <div class="resume_profile">
